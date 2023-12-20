@@ -17,8 +17,8 @@ function setGame() {
         document.getElementById("board").appendChild(tile);
     }
 
-    setInterval(setMole, 1000); //miliseconds (1 seconds)
-    setInterval(setPlant, 2000); //2000 milisecond = (2 seconds)
+    setInterval(setMole, 500); //miliseconds (Half a second)
+    setInterval(setPlant, 500); //2000 milisecond = (Half asecond)
 }
 
 function getRamdomTile() {
